@@ -15,7 +15,7 @@ const BookEditForm = ({ book }: BookEditFormProps) => {
   return (
     <>
       <div>
-        <h1 className="text-5xl font-bold text-center pt-4">Editing Mood</h1>
+        <h1 className="text-5xl font-bold text-center pt-4">Editing Mode</h1>
       </div>
       <div className="flex items-center justify-center">
         <form action={editBookAction} className="w-full  p-6  rounded-lg shadow-lg">

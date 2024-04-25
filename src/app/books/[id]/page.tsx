@@ -7,6 +7,7 @@ interface ShowBookProps {
 }
 
 const ShowBook = async ({ params: { id } }: ShowBookProps) => {
+  await new Promise((r) => setTimeout(r, 400));
   const book = await db.book.findFirst({
     where: { id }
   });

@@ -9,7 +9,7 @@ const BookCreatePage = () => {
   return (
     <>
       <div>
-        <h1 className="text-5xl font-bold text-center pt-4">Writing Mood</h1>
+        <h1 className="text-5xl font-bold text-center pt-4">Writing Mode</h1>
       </div>
       <div className="flex items-center justify-center">
         <form action={action} className="w-full  p-6  rounded-lg shadow-lg">
